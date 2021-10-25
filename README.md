@@ -41,14 +41,14 @@ In the terminal run `node db` to check that it has connected to the database.
 On MySQL Workbench, click on the database icon - “Create a new schema” at the top and make the schema name `quiz-manager`.
 
 ### Add quiz data
-In the terminal log into mysql using the command: `mysql -u root -p` and type in your mysql password.
+In the IDE terminal log into mysql using the command: `mysql -u root -p` and type in your mysql password.
 
 Then run the script in `appScripts.sql`.
 
 Once this is complete exit the database with `\q`.
 
 ### Add users
-In the terminal in the route repository, run `node addUser.js`.
+In the IDE terminal in the route repository, run `node addUser.js`.
 
 This will create 3 users (restricted, view and edit) with encrypted passwords that you can use to log into the application.
 
