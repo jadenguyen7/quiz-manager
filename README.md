@@ -15,6 +15,9 @@ Assuming you have Node.js and NPM installed, in that location in Terminal run:
 
 `npm install`
 
+### IDE
+I have used Visual Studio Code as my IDE but you can use the IDE you feel most comfortable with.
+
 ### Ports
 
 This app is set to run on localhost 3000
@@ -48,9 +51,6 @@ Once this is complete exit the database with `\q`.
 In the terminal in the route repository, run `node addUser.js`.
 
 This will create 3 users (restricted, view and edit) with encrypted passwords that you can use to log into the application.
-
-### IDE
-I have used Visual Studio Code as my IDE but you can use the IDE you feel most comfortable with.
 
 ### Run Project
 In the terminal, navigate to where your project lives and run this command to install the required dependencies:
